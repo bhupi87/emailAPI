@@ -1,5 +1,5 @@
 {
-  "name": "nodemail",
+  "name": "emailAPI",
   "version": "1.0.0",
   "description": "sending emails api",
   "main": "index.js",
@@ -10,12 +10,15 @@
     "body-parser": "latest",
     "ejs": "latest",
     "express": "latest",
+    "mailgun-js": "latest",
     "morgan": "latest",
-    "mailgun-js":"latest"
+	"config" :"latest",
+	"email-validator" : "latest",
+    "sendgrid": "^5.1.0"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/bhupi87"
+    "type": "bitbucket",
+    "url": "https://bitbucket.org/bhupi87"
   },
   "keywords": [
     "nodejs",
