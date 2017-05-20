@@ -1,6 +1,8 @@
 # Email API Application
 
-Problem Description : Create a RESTful API that accepts the necessary information and sends emails using email provider . Conifigure multiple email provider
+## Problem Description :
+
+Create a RESTful API that accepts the necessary information and sends emails using email provider . Conifigure multiple email provider
 so that can support failover situation .
 
 ## Approach :
