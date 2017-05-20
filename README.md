@@ -1,5 +1,13 @@
 # Email API Application
 
+Problem Description : Create a RESTful API that accepts the necessary information and sends emails using email provider . Conifigure multiple email provider
+so that can support failover situation .
+
+## Approach :
+
+Using callback algorith to handle failover situation , also using CONFIG JS framwork to store email provider detail in json framwork and loading 
+this data at run time during request .
+
 A simple app which send email notification , this api also contain simple UI to enter email id and mail content . Currently This api is using MailGun 
 as primary provider and SendGrid and secondary . If MailGun server is down , api will switch to SendGrid server to send mail .
 
@@ -15,6 +23,7 @@ Run node index.js to start the server.  (Hit CTRL-C to stop.)
 > npm install
 > node index.js
 ```
+## Testing Steps :
 
 Point your browser to http://localhost:3000. It will open a UI , click on "Click here To Send Email Button" to send email .
 Enter email Id and Content in box provided by UI and click on send button .
