@@ -1,6 +1,7 @@
 # Email API Application
 
-A simple app which send email notification upon contact form submission
+A simple app which send email notification , this api also contain simple UI to enter email id and mail content . Currently This api is using MailGun 
+as primary provider and SendGrid and secondary . If MailGun server is down , api will switch to SendGrid server to send mail .
 
 ## How to use
 
