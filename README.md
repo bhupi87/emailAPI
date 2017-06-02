@@ -21,17 +21,29 @@ Make sure you have installed all of the following prerequisites on your  machine
 * MailGun API-Key  - [Sign-up & Create Account]https://www.mailgun.com/) 
 * SendGrid API-Key  - [Sign-up & Create Account]https://sendgrid.com/) 
 
-## Running Locally 
+## How to run 
 
 Make sure you have Node.js . Open a command window in your project folder .
 
-Clone project in your local environment and run mail-api using below command
+1. Clone this repository:
 ```sh
 git clone https://github.com/bhupi87/emailapi.git
-cd emailapi
-git checkout develop
-npm start
 ```
+2. Change directory in to the project:
+```sh
+cd emailapi
+```
+3. Checkout develop branch:
+```sh
+git checkout develop
+```
+3. Go to configuration folder to enter api-key of mail-gun and sendgrid:
+```sh
+cd config/
+vi default.json
+```
+4. Go to your mailgun account (https://app.mailgun.com/app/account) and add Authorized Recipients by entering emailId of recipient:
+
 
 ## Testing Steps :
 
