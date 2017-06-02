@@ -13,6 +13,14 @@ this data at run time during request .
 A simple app which send email notification , this api also contain simple UI to enter email id and mail content . Currently This api is using MailGun 
 as primary provider and SendGrid and secondary . If MailGun server is down , api will switch to SendGrid server to send mail .
 
+## Prerequisites
+
+Make sure you have installed all of the following prerequisites on your  machine:
+* Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
+* Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. If you encounter any problems, you can also use this [GitHub Gist](https://gist.github.com/isaacs/579814) to install Node.js.
+* MailGun API-Key  - [Sign-up & Create Account]https://www.mailgun.com/) 
+* SendGrid API-Key  - [Sign-up & Create Account]https://sendgrid.com/) 
+
 ## Running Locally 
 
 Make sure you have Node.js . Open a command window in your project folder .
