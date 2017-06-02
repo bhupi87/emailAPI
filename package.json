@@ -1,10 +1,11 @@
 {
   "name": "emailAPI",
   "version": "1.0.0",
-  "description": "sending emails api",
+  "description": "email api to send mail",
   "main": "index.js",
   "scripts": {
-    "test": "node index"
+    "test": "mocha",
+    "start": "npm install && node index.js "
   },
   "dependencies": {
     "body-parser": "latest",
@@ -12,18 +13,28 @@
     "express": "latest",
     "mailgun-js": "latest",
     "morgan": "latest",
-	"config" :"latest",
-	"email-validator" : "latest",
+    "config": "latest",
+    "email-validator": "latest",
+    "async": "latest",
+    "mocha": "latest",
     "sendgrid": "^5.1.0"
   },
   "repository": {
-    "type": "bitbucket",
-    "url": "https://bitbucket.org/bhupi87"
+    "type": "github",
+    "url": "https://github.com/bhupi87/emailapi"
   },
   "keywords": [
     "nodejs",
     "mailgun"
   ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "author": "Bhupendra",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "http://localhost:3000/",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "supertest": "^1.0.1"
+  }
 }
