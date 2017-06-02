@@ -13,18 +13,15 @@ this data at run time during request .
 A simple app which send email notification , this api also contain simple UI to enter email id and mail content . Currently This api is using MailGun 
 as primary provider and SendGrid and secondary . If MailGun server is down , api will switch to SendGrid server to send mail .
 
-## How to use
+## Running Locally 
 
-Open a command window in your project folder.
+Make sure you have Node.js . Open a command window in your project folder .
 
-Run npm install to install all the dependencies in the package.json file.
+Clone project in your local environment 
+git clone https://github.com/bhupi87/emailapi.git
+cd emailapi
+git checkout develop
 
-Run node index.js to start the server.  (Hit CTRL-C to stop.)
-
-```
-> npm install
-> node index.js
-```
 ## Testing Steps :
 
 Point your browser to http://localhost:3000. It will open a UI , click on "Click here To Send Email Button" to send email .
