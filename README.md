@@ -17,10 +17,11 @@ as primary provider and SendGrid and secondary . If MailGun server is down , api
 
 Make sure you have Node.js . Open a command window in your project folder .
 
-Clone project in your local environment 
-git clone https://github.com/bhupi87/emailapi.git
-cd emailapi
-git checkout develop
+Clone project in your local environment and run mail-api using below command
+>git clone https://github.com/bhupi87/emailapi.git
+>cd emailapi
+>git checkout develop
+>npm start
 
 ## Testing Steps :
 
