@@ -44,7 +44,7 @@ vi default.json
 ```
 4. Go to your mailgun account (https://app.mailgun.com/app/account) and add Authorized Recipients by entering emailId of recipient.
 
-## Running the tests
+## Running unit test cases
 
 To run test case mail-api node program should be run mode and listen on port 3000.  Following test cases are covered to test rest service and path is correct or not .  
 
