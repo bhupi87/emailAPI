@@ -13,6 +13,9 @@ this data at run time during request .
 A simple app which send email notification , this api also contain simple UI to enter email id and mail content . Currently This api is using MailGun 
 as primary provider and SendGrid and secondary . If MailGun server is down , api will switch to SendGrid server to send mail .
 
+## Not Covered 
+Currently this email-api is only sedning mail using mailgun and sendgrid . Not using mandrill and aws because do not have api-key to establish connection .
+
 ## Prerequisites
 
 Make sure you have installed all of the following prerequisites on your  machine:
