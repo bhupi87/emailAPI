@@ -69,5 +69,8 @@ JSON Data Format :
    "body" : " This is through postman" 
 }
 
+## Link of cloud hosting 
+[Email-API](http://env-4591748.lon-1.paas.massivegrid.net/)
+
 ## My Linkedin Profile 
 [Bhupendra Pratap Singh](https://www.linkedin.com/in/bhupendra-singh-b537a024)
