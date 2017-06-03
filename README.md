@@ -42,14 +42,29 @@ git checkout develop
 cd config/
 vi default.json
 ```
-4. Go to your mailgun account (https://app.mailgun.com/app/account) and add Authorized Recipients by entering emailId of recipient:
+4. Go to your mailgun account (https://app.mailgun.com/app/account) and add Authorized Recipients by entering emailId of recipient.
 
+## Running the tests
 
-## Testing Steps :
+To run test case mail-api node program should be run mode and listen on port 3000.  Following test cases are covered to test rest service and path is correct or not .  
+
+1. Access home url – should return response code 200.
+2. Post method path url – should return response code 200.
+
+Now Open another tab and run
+
+```sh
+npm test
+```
+If mail-api node program service is not up both test cases will get fail .So to pass test cases mail-api node program should be run mode and listen on port 3000
+
+## Testing Through UI and Postman  :
 
 Point your browser to http://localhost:3000. It will open a UI , click on "Click here To Send Email Button" to send email .
-Enter email Id and Content in box provided by UI and click on send button .
+Enter email Id and Content in box provided by UI and click on send button . ## Make sure email id should be authorized receipients list of mailgun if want to send mail via mailgun .
 
 To Test this api using postman : Use below url and post json data in below format : http://localhost:3000/contact
 JSON Data Format :
-{ "emailID" : "bhupi87@gmail.com", "body" : " This is through postman" }
+{ "emailID" : "bhupi87@gmail.com", 
+   "body" : " This is through postman" 
+}
