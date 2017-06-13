@@ -2,11 +2,11 @@
   // Email provider configs
   "Provider": {
     "mailGun": {
-      "apiKey": "key-a0436ed301c3f2b977e890735b1b4dc0",
-      "domain": "sandboxdf46b67b1b9b46898a9a3a1cab062114.mailgun.org"
+      "apiKey": "",
+      "domain": ""
     },
     "sendGrid": {
-       "apiKey": "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"
+       "apiKey": ""
     }
   }
 }
